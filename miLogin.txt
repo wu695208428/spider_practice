@@ -1,0 +1,31 @@
+https://account.xiaomi.com/pass/serviceLogin?callback=https:%2F%2Faccount.xiaomi.com&sid=passport&qs=%253Fsid%253Dpassport&serviceParam=&_sign=&_loginSign=pwd&_json=true
+获取到
+{
+    "serviceParam":"{\"checkSafePhone\":false,\"checkSafeAddress\":false,\"lsrp_score\":0.0}",
+    "qs":"%3Fcallback%3Dhttps%3A%252F%252Faccount.xiaomi.com%26sid%3Dpassport%26qs%3D%25253Fsid%25253Dpassport%26serviceParam%3D%26_sign%3D%26_loginSign%3Dpwd%26_json%3Dtrue",
+    "code":70016,
+    "description":"登录验证失败",
+    "securityStatus":0,
+    "_sign":"2&V1_passport&8QU3hIoJQgQbfWfDOHJD7edy+pU=",
+    "sid":"passport",
+    "result":"error",
+    "captchaUrl":null,
+    "callback":"https://account.xiaomi.com",
+    "location":"https://account.xiaomi.com/fe/service/login?_loginSign=pwd&_json=true&sid=passport&qs=%253Fcallback%253Dhttps%253A%25252F%25252Faccount.xiaomi.com%2526sid%253Dpassport%2526qs%253D%2525253Fsid%2525253Dpassport%2526serviceParam%253D%2526_sign%253D%2526_loginSign%253Dpwd%2526_json%253Dtrue&callback=https%3A%2F%2Faccount.xiaomi.com&_sign=2%26V1_passport%268QU3hIoJQgQbfWfDOHJD7edy%2BpU%3D&serviceParam=%7B%22checkSafePhone%22%3Afalse%2C%22checkSafeAddress%22%3Afalse%2C%22lsrp_score%22%3A0.0%7D&showActiveX=false&theme=&needTheme=false&bizDeviceType=",
+    "pwd":0,
+    "child":0,
+    "desc":"登录验证失败"
+}
+
+目标：
+callback	https://account.xiaomi.com    #上面有
+sid	passport   #上面有
+qs	%3Fcallback%3Dhttps%3A%252F%252Faccount.xiaomi.com%26sid%3Dpassport%26qs%3D%25253Fsid%25253Dpassport%26serviceParam%3D%26_sign%3D%26_loginSign%3Dpwd%26_json%3Dtrue   #上面有
+serviceParam	为空
+_sign	2&V1_passport&8QU3hIoJQgQbfWfDOHJD7edy+pU=   #上面有
+user	t1X5PuAszgXESFhMUSb2qA==
+cc	+86
+hash	3A9D55D27EF2506F787E0C6881953CF8   #密码MD5大写
+_json	true
+policyName	miaccount
+captCode	
